@@ -1,0 +1,132 @@
+nancy@nancy-Inspiron-1545 ~ $ bash BUILD
+nancy@nancy-Inspiron-1545 ~ $ ./sleepingBarbers 1 1 10 1000
+-0 sleeps because of no customers.
+1 moves to service chair[0], # waiting seats available = 1
+1 wait for barber[0] to be done with hair-cut
+-0 starts a hair-cut service for customer[1].
+-0 says he's done with a hair-cut service for customer [1].
+1 says good-bye to barber[]
+2 takes a waiting chair. # waiting chairs available = 0
+-0 calls in another customer
+2 moves to service chair[0], # waiting seats available = 1
+2 wait for barber[0] to be done with hair-cut
+-0 starts a hair-cut service for customer[2].
+3 takes a waiting chair. # waiting chairs available = 0
+-0 says he's done with a hair-cut service for customer [2].
+2 says good-bye to barber[]
+-0 calls in another customer
+3 moves to service chair[0], # waiting seats available = 1
+-0 starts a hair-cut service for customer[3].
+3 wait for barber[0] to be done with hair-cut
+4 takes a waiting chair. # waiting chairs available = 0
+-0 says he's done with a hair-cut service for customer [3].
+3 says good-bye to barber[]
+-0 calls in another customer
+4 moves to service chair[0], # waiting seats available = 1
+-0 starts a hair-cut service for customer[4].
+4 wait for barber[0] to be done with hair-cut
+5 takes a waiting chair. # waiting chairs available = 0
+-0 says he's done with a hair-cut service for customer [4].
+4 says good-bye to barber[]
+-0 calls in another customer
+5 moves to service chair[0], # waiting seats available = 1
+-0 starts a hair-cut service for customer[5].
+5 wait for barber[0] to be done with hair-cut
+6 takes a waiting chair. # waiting chairs available = 0
+7 leaves the shop because of no available waiting chairs
+9 leaves the shop because of no available waiting chairs
+-0 says he's done with a hair-cut service for customer [5].
+5 says good-bye to barber[]
+-0 calls in another customer
+6 moves to service chair[0], # waiting seats available = 1
+6 wait for barber[0] to be done with hair-cut
+-0 starts a hair-cut service for customer[6].
+8 takes a waiting chair. # waiting chairs available = 0
+10 leaves the shop because of no available waiting chairs
+-0 says he's done with a hair-cut service for customer [6].
+6 says good-bye to barber[]
+-0 calls in another customer
+8 moves to service chair[0], # waiting seats available = 1
+8 wait for barber[0] to be done with hair-cut
+-0 starts a hair-cut service for customer[8].
+-0 says he's done with a hair-cut service for customer [8].
+8 says good-bye to barber[]
+-0 calls in another customer
+-0 sleeps because of no customers.
+# customers who didn't receive a service = 3
+nancy@nancy-Inspiron-1545 ~ $ ./sleepingBarbers 3 1 10 1000
+-0 sleeps because of no customers.
+-1 sleeps because of no customers.
+-2 sleeps because of no customers.
+1 moves to service chair[0], # waiting seats available = 1
+-0 starts a hair-cut service for customer[1].
+1 wait for barber[0] to be done with hair-cut
+-0 says he's done with a hair-cut service for customer [1].
+2 moves to service chair[1], # waiting seats available = 1
+2 wait for barber[1] to be done with hair-cut
+1 says good-bye to barber[]
+-1 starts a hair-cut service for customer[2].
+-0 calls in another customer
+-0 sleeps because of no customers.
+3 moves to service chair[2], # waiting seats available = 1
+-2 starts a hair-cut service for customer[3].
+3 wait for barber[2] to be done with hair-cut
+-1 says he's done with a hair-cut service for customer [2].
+2 says good-bye to barber[]
+-1 calls in another customer
+-1 sleeps because of no customers.
+4 moves to service chair[0], # waiting seats available = 1
+4 wait for barber[0] to be done with hair-cut
+-0 starts a hair-cut service for customer[4].
+-2 says he's done with a hair-cut service for customer [3].
+3 says good-bye to barber[]
+-2 calls in another customer
+-2 sleeps because of no customers.
+5 moves to service chair[1], # waiting seats available = 1
+5 wait for barber[1] to be done with hair-cut
+-1 starts a hair-cut service for customer[5].
+-0 says he's done with a hair-cut service for customer [4].
+4 says good-bye to barber[]
+-0 calls in another customer
+-0 sleeps because of no customers.
+6 moves to service chair[2], # waiting seats available = 1
+-2 starts a hair-cut service for customer[6].
+6 wait for barber[2] to be done with hair-cut
+7 moves to service chair[0], # waiting seats available = 1
+7 wait for barber[0] to be done with hair-cut
+-0 starts a hair-cut service for customer[7].
+-1 says he's done with a hair-cut service for customer [5].
+5 says good-bye to barber[]
+-1 calls in another customer
+-1 sleeps because of no customers.
+-2 says he's done with a hair-cut service for customer [6].
+6 says good-bye to barber[]
+8 moves to service chair[1], # waiting seats available = 1
+8 wait for barber[1] to be done with hair-cut
+-0 says he's done with a hair-cut service for customer [7].
+-2 calls in another customer
+-2 sleeps because of no customers.
+7 says good-bye to barber[]
+-0 calls in another customer
+-0 sleeps because of no customers.
+-1 starts a hair-cut service for customer[8].
+10 moves to service chair[2], # waiting seats available = 1
+10 wait for barber[2] to be done with hair-cut
+-1 says he's done with a hair-cut service for customer [8].
+8 says good-bye to barber[]
+-1 calls in another customer
+-1 sleeps because of no customers.
+-2 starts a hair-cut service for customer[10].
+9 moves to service chair[0], # waiting seats available = 1
+9 wait for barber[0] to be done with hair-cut
+-0 starts a hair-cut service for customer[9].
+-2 says he's done with a hair-cut service for customer [10].
+10 says good-bye to barber[]
+-2 calls in another customer
+-2 sleeps because of no customers.
+-0 says he's done with a hair-cut service for customer [9].
+9 says good-bye to barber[]
+# customers who didn't receive a service = 0
+nancy@nancy-Inspiron-1545 ~ $ 
+
+
