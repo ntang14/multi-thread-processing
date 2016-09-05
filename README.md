@@ -1,2 +1,3 @@
 # multi-thread-processing
-A project utilizing multiple threads with mutex locks.
+A project utilizing pthreads with mutex locks.
+
